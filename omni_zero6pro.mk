@@ -21,6 +21,12 @@ PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X620
 PRODUCT_MANUFACTURER := infinix
 
+# Add support for future ota updates
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.secure=1 \
+    ro.adb.secure=0 \
+    ro.allow.mock.location=0
+
 PRODUCT_GMS_CLIENTID_BASE := android-transsion-infinix-rev1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
