@@ -92,7 +92,8 @@ on boot
 
 on init
     start hwservicemanager
-    setprop crypto.ready 1
+    start boot-1-0
+    start prepdecrypt
 
 on property:crypto.ready=0
     stop sbinqseecomd
