@@ -35,3 +35,10 @@ PRODUCT_PACKAGES += \
     cppreopts.sh \
     update_engine \
     update_verifier
+
+# Device modules
+TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
+
+# Encryption
+PRODUCT_PACKAGES += \
+    libcryptfs_hw
