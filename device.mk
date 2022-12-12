@@ -6,6 +6,9 @@
 #
 
 LOCAL_PATH := device/infinix/zero6pro
+
+PRODUCT_SHIPPING_API_LEVEL := 27
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
