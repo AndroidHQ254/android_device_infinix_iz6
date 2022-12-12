@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=Infinix-X620
+DEVICE=zero6pro
 VENDOR=infinix
 
 # Load extract_utils and do some sanity checks

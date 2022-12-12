@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X620
+DEVICE_PATH := device/infinix/zero6pro
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -36,7 +36,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X620
+TARGET_BOOTLOADER_BOARD_NAME := zero6pro
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -51,8 +51,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := Infinix-X620_defconfig
-TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X620
+TARGET_KERNEL_CONFIG := zero6pro_defconfig
+TARGET_KERNEL_SOURCE := kernel/infinix/zero6pro
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

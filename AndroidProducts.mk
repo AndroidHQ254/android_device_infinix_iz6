@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Infinix-X620.mk
+    $(LOCAL_DIR)/omni_zero6pro.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Infinix-X620-user \
-    omni_Infinix-X620-userdebug \
-    omni_Infinix-X620-eng
+    omni_zero6pro-user \
+    omni_zero6pro-userdebug \
+    omni_zero6pro-eng
